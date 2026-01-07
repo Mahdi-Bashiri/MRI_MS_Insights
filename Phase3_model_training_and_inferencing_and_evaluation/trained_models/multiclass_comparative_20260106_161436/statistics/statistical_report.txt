@@ -1,0 +1,103 @@
+
+STATISTICAL ANALYSIS REPORT
+===========================
+
+MODEL COMPARISON:
+-----------------
+
+Precision_Overall:
+  Best Model: trans_unet (0.8972)
+  unet: 0.8569
+  attn_unet: 0.8731
+  trans_unet: 0.8972
+  deepl3_unet: 0.8142
+
+Recall_Overall:
+  Best Model: unet (0.8565)
+  unet: 0.8565
+  attn_unet: 0.8448
+  trans_unet: 0.7680
+  deepl3_unet: 0.7751
+
+Dice_Overall:
+  Best Model: attn_unet (0.8582)
+  unet: 0.8567
+  attn_unet: 0.8582
+  trans_unet: 0.8231
+  deepl3_unet: 0.7938
+
+
+CLASS COMPARISON (within each model):
+--------------------------------------
+
+unet_Precision:
+  Ventricles: 0.9124
+  Abnormal WMH: 0.8013
+  Difference: -0.1111
+  Better Class: Ventricles
+
+unet_Recall:
+  Ventricles: 0.9113
+  Abnormal WMH: 0.8016
+  Difference: -0.1097
+  Better Class: Ventricles
+
+unet_Dice:
+  Ventricles: 0.9119
+  Abnormal WMH: 0.8015
+  Difference: -0.1104
+  Better Class: Ventricles
+
+attn_unet_Precision:
+  Ventricles: 0.9117
+  Abnormal WMH: 0.8345
+  Difference: -0.0772
+  Better Class: Ventricles
+
+attn_unet_Recall:
+  Ventricles: 0.9226
+  Abnormal WMH: 0.7670
+  Difference: -0.1556
+  Better Class: Ventricles
+
+attn_unet_Dice:
+  Ventricles: 0.9171
+  Abnormal WMH: 0.7993
+  Difference: -0.1178
+  Better Class: Ventricles
+
+trans_unet_Precision:
+  Ventricles: 0.9133
+  Abnormal WMH: 0.8810
+  Difference: -0.0323
+  Better Class: Ventricles
+
+trans_unet_Recall:
+  Ventricles: 0.8948
+  Abnormal WMH: 0.6412
+  Difference: -0.2536
+  Better Class: Ventricles
+
+trans_unet_Dice:
+  Ventricles: 0.9039
+  Abnormal WMH: 0.7422
+  Difference: -0.1617
+  Better Class: Ventricles
+
+deepl3_unet_Precision:
+  Ventricles: 0.8669
+  Abnormal WMH: 0.7615
+  Difference: -0.1054
+  Better Class: Ventricles
+
+deepl3_unet_Recall:
+  Ventricles: 0.8573
+  Abnormal WMH: 0.6929
+  Difference: -0.1643
+  Better Class: Ventricles
+
+deepl3_unet_Dice:
+  Ventricles: 0.8621
+  Abnormal WMH: 0.7256
+  Difference: -0.1365
+  Better Class: Ventricles

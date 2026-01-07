@@ -1,0 +1,109 @@
+{
+  "model_comparison": {
+    "Precision_Overall": {
+      "values": {
+        "unet": 0.8568587713417728,
+        "attn_unet": 0.8731030130474637,
+        "trans_unet": 0.8971691268170178,
+        "deepl3_unet": 0.8142240534072536
+      },
+      "best_model": "trans_unet",
+      "best_value": 0.8971691268170178
+    },
+    "Recall_Overall": {
+      "values": {
+        "unet": 0.8564867869939714,
+        "attn_unet": 0.8447592767330175,
+        "trans_unet": 0.767973698621257,
+        "deepl3_unet": 0.7750964781451007
+      },
+      "best_model": "unet",
+      "best_value": 0.8564867869939714
+    },
+    "Dice_Overall": {
+      "values": {
+        "unet": 0.8566726013813879,
+        "attn_unet": 0.858203732173929,
+        "trans_unet": 0.8230744241838578,
+        "deepl3_unet": 0.7938379783222795
+      },
+      "best_model": "attn_unet",
+      "best_value": 0.858203732173929
+    }
+  },
+  "class_comparison": {
+    "unet_Precision": {
+      "Ventricles": 0.9124152952565344,
+      "WMH": 0.8013022474270112,
+      "Difference": -0.11111304782952325,
+      "Better_Class": "Ventricles"
+    },
+    "unet_Recall": {
+      "Ventricles": 0.9113345741980711,
+      "WMH": 0.8016389997898719,
+      "Difference": -0.10969557440819921,
+      "Better_Class": "Ventricles"
+    },
+    "unet_Dice": {
+      "Ventricles": 0.9118746145205302,
+      "WMH": 0.8014705882422455,
+      "Difference": -0.11040402627828472,
+      "Better_Class": "Ventricles"
+    },
+    "attn_unet_Precision": {
+      "Ventricles": 0.911729575773053,
+      "WMH": 0.8344764527604024,
+      "Difference": -0.0772531230126506,
+      "Better_Class": "Ventricles"
+    },
+    "attn_unet_Recall": {
+      "Ventricles": 0.9225507022166356,
+      "WMH": 0.7669678503887372,
+      "Difference": -0.15558285182789844,
+      "Better_Class": "Ventricles"
+    },
+    "attn_unet_Dice": {
+      "Ventricles": 0.9171082194917984,
+      "WMH": 0.7992992445052995,
+      "Difference": -0.1178089749864989,
+      "Better_Class": "Ventricles"
+    },
+    "trans_unet_Precision": {
+      "Ventricles": 0.9132987912152218,
+      "WMH": 0.8810394614188139,
+      "Difference": -0.0322593297964079,
+      "Better_Class": "Ventricles"
+    },
+    "trans_unet_Recall": {
+      "Ventricles": 0.8947762827661534,
+      "WMH": 0.6411711144763606,
+      "Difference": -0.2536051682897928,
+      "Better_Class": "Ventricles"
+    },
+    "trans_unet_Dice": {
+      "Ventricles": 0.9039426610262511,
+      "WMH": 0.7422061863414643,
+      "Difference": -0.1617364746847868,
+      "Better_Class": "Ventricles"
+    },
+    "deepl3_unet_Precision": {
+      "Ventricles": 0.866920895668329,
+      "WMH": 0.7615272111461782,
+      "Difference": -0.10539368452215081,
+      "Better_Class": "Ventricles"
+    },
+    "deepl3_unet_Recall": {
+      "Ventricles": 0.857260267349948,
+      "WMH": 0.6929326889402535,
+      "Difference": -0.16432757840969447,
+      "Better_Class": "Ventricles"
+    },
+    "deepl3_unet_Dice": {
+      "Ventricles": 0.8620635171449851,
+      "WMH": 0.7256124394995741,
+      "Difference": -0.13645107764541098,
+      "Better_Class": "Ventricles"
+    }
+  },
+  "summary": {}
+}

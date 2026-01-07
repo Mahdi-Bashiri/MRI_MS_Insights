@@ -60,7 +60,7 @@ pip install -r requirements.txt
 The repository follows a **5-phase pipeline architecture**:
 
 ```
-├── 📁 Article_Figures/              # 7 main figures from published article
+├── 📁 Article_Figures/              # 8 main figures from published article
 │   ├── Figure_1.tif                 # Study flowchart
 │   ├── Figure_2.tif                 # Study population demographics
 │   ├── Figure_3.tif                 # Sample FLAIR annotations
@@ -69,7 +69,7 @@ The repository follows a **5-phase pipeline architecture**:
 │   ├── Figure_6.tif                 # Lesion burden analysis
 │   ├── Figure_7.tif                 # Anatomical lesion distribution
 │   └── Figure_8.tif                 # Statistical correlation matrices
-├── 📁 Article_Tables/               # 3 comprehensive tables
+├── 📁 Article_Tables/               # 5 comprehensive tables
 │   ├── Table_1.docx                # Demographic characteristics
 │   ├── Table_2.docx                # MRI imaging protocols
 │   ├── Table_3.docx                # Deep learning models performances
@@ -88,7 +88,7 @@ The repository follows a **5-phase pipeline architecture**:
 │   ├── 📁 model_performance/       # Model performance for all 4 architectures
 │   ├── 📁 trained_models/          # Pre-trained models (all 4 architectures)
 │   │   ├── trans_unet_model/
-│   │   └── Pretrained_Models.md    # Link to the Hugging Face repository for accessing the pre-trained models
+│   │   └── Pretrained_Models.md     # Link to the Hugging Face repository for accessing the pre-trained models
 │   ├── wmh_vent_segmentation_Fa.py    # Model training
 │   ├── unet_model.py                  # U-Net Model
 │   ├── attn_unet_model.py             # Attention U-Net Model

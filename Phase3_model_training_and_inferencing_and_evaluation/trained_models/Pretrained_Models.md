@@ -5,7 +5,7 @@ Due to GitHub file size limitations, the trained models associated with this rep
 All pretrained models can be accessed and downloaded from the following **Hugging Face repository**:
 
 🔗 **Hugging Face – Trained Models**  
-https://huggingface.co/Bawil/MRI_MS_Insights
+https://huggingface.co/Bawil/MRI_MS_Insights/tree/main
 
 ## Notes
 - The models were trained as part of this project and are required for inference and reproducibility.
